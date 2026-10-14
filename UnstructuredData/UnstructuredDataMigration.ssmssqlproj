@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="UnstructuredDataMigration">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):AzureAD\RatoLi">
+          <Created>2026-05-05T16:09:47.8018499+10:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>SalesforceMigration</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="localhost:AzureAD\RatoLi">
+          <Created>2026-05-05T16:21:37.3989527+10:00</Created>
+          <Type>SQL</Type>
+          <Server>localhost</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>SalesforceMigration</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="RHOM084:AzureAD\RatoLi">
+          <Created>2026-05-29T00:45:15.1471834+10:00</Created>
+          <Type>SQL</Type>
+          <Server>RHOM084</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>SalesforceMigration</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="010_t_AttachmentMigrationLedger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_AttachmentMigrationLedger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_FileMigrationLedger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RHOM084:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RHOM084</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_FileMigrationLedger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_MigrationRun.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RHOM084:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RHOM084</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_MigrationRun.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_ObjectMigrationLedger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RHOM084:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RHOM084</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_ObjectMigrationLedger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_ParentMapping.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:RHOM084:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>RHOM084</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_ParentMapping.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_sf_file_items.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_sf_file_items.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_sf_file_links.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_sf_file_links.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_sf_file_migration_ledger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_sf_file_migration_ledger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="010_t_UnstructuredMigrationLedger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>010_t_UnstructuredMigrationLedger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="100_p_sp_GetNextUnstructuredBatch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>100_p_sp_GetNextUnstructuredBatch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="100_p_sp_MarkUnstructuredFailure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>100_p_sp_MarkUnstructuredFailure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="100_p_sp_MarkUnstructuredSuccess.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>100_p_sp_MarkUnstructuredSuccess.sql</FullPath>
+        </FileNode>
+        <FileNode Name="count_attachmentsByObject.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>count_attachmentsByObject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ins_AttachmentMigrationLedger-Assurance_Review.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ins_AttachmentMigrationLedger-Assurance_Review.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ins_AttachmentMigrationLedger-EmailTemplate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ins_AttachmentMigrationLedger-EmailTemplate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ins_AttachmentMigrationLedger-Incident_File_Review.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ins_AttachmentMigrationLedger-Incident_File_Review.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ins_AttachmentMigrationLedger-Task.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ins_AttachmentMigrationLedger-Task.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
