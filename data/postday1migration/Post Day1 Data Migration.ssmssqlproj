@@ -1,0 +1,805 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="Post Day1 Data Migration">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="Rhombus-SQL-Ser:Rhombus-APP-Ser\azvmadmin">
+          <Created>2026-08-10T23:21:58.8269491+10:00</Created>
+          <Type>SQL</Type>
+          <Server>Rhombus-SQL-Ser</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="015_ETL_PRD_vw_upsert_A1_Support_Staff_Registrations-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_A1_Support_Staff_Registrations-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Account-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Account-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_AccountContactRelation-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_AccountContactRelation-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Accreditations-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Accreditations-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Adviser_Academy-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Adviser_Academy-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Adviser_ASN_Snapshot-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Adviser_ASN_Snapshot-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_AdviserHUB_Wave_Definition-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_AdviserHUB_Wave_Definition-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_AdviserOne_Event-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_AdviserOne_Event-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_ANZ_Lookback-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_ANZ_Lookback-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Approval-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Approval-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Area_of_Advice-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Area_of_Advice-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_ASF_CSA_Case_dv-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_ASF_CSA_Case_dv-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_ASF_CSA_Case-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_ASF_CSA_Case-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_ASN_Indicator_History-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_ASN_Indicator_History-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Assurance_Event-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Assurance_Event-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Assurance_Review-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Assurance_Review-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_BID_Case-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_BID_Case-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_BrandTemplate-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_BrandTemplate-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Breach_Reporting-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Breach_Reporting-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Calculation-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Calculation-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Campaign-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Campaign-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CampaignMember-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CampaignMember-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Case_Snapshot-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Case_Snapshot-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Case-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Case-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CaseComment-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CaseComment-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Client_File-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Client_File-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Client_Service_Model_Implementation-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Client_Service_Model_Implementation-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CommPay_Supplier-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CommPay_Supplier-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Complained_Advisers-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Complained_Advisers-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Consequence_Management_Forum_Entry-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Consequence_Management_Forum_Entry-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Contact-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Contact-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CSA_Case_dv-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CSA_Case_dv-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CSA_Case-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CSA_Case-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CSA_Fee_Switch_Off_History-Email.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CSA_Fee_Switch_Off_History-Email.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CSA_Fee_Switch_Off_History-NoEmail.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CSA_Fee_Switch_Off_History-NoEmail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_CSO-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_CSO-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Email_Log-Run1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Email_Log-Run1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Email_Log-Run2Upsert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Email_Log-Run2Upsert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_EmailMessage-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_EmailMessage-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_EmailTemplate-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_EmailTemplate-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_EnhancedLetterhead-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_EnhancedLetterhead-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Event-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Event-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_EventRelation-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_EventRelation-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Incident_File_Review-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Incident_File_Review-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_InitiativeChecklist-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_InitiativeChecklist-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Library_Text-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Library_Text-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_LookupName-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_LookupName-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Master_Item-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Master_Item-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Master_module-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Master_module-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Master_Questions-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Master_Questions-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Master_Topic-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Master_Topic-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Master_workshop-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Master_workshop-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_MasterQuestions_Targetedreviews-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_MasterQuestions_Targetedreviews-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Module-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Module-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_NAPW-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_NAPW-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Opportunity-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Opportunity-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Paraplanning-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Paraplanning-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_PermissionSet-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_PermissionSet-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_PermissionSetAssignment-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_PermissionSetAssignment-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_PermissionSetAssignment-Internal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_PermissionSetAssignment-Internal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_PermissionSetGroup-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_PermissionSetGroup-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_PermissionSetLicense-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_PermissionSetLicense-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Product_Questions-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Product_Questions-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Product2-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Product2-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Profile-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Profile-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_PSA-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_PSA-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_QA_Assignment_Hisotry-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_QA_Assignment_Hisotry-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_QA-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_QA-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Qualification_Type-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Qualification_Type-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Qualification-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Qualification-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Question_Group-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Question_Group-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Question_Responses-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Question_Responses-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Refund_Request-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Refund_Request-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Registered_Training_Organisation-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Registered_Training_Organisation-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Response_Finding-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Response_Finding-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Reviews_Accounted-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Reviews_Accounted-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_SecondaryPracticeAdviserHistory-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_SecondaryPracticeAdviserHistory-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_SelectedQuestions_Targetedreviews-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_SelectedQuestions_Targetedreviews-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Snapshot_Data-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Snapshot_Data-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Special_Conditions-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Special_Conditions-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Target-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Target-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Task-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Task-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Third_Party_Provider-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Third_Party_Provider-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Topic-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Topic-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Tracking-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Tracking-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_User-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_User-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_User-Community.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_User-Community.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_User-InactiveCommunity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_User-InactiveCommunity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_UserLicense-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_UserLicense-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Vetting_Result-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Vetting_Result-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Wealth_Central_Adoption-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Wealth_Central_Adoption-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_PRD_vw_upsert_Workshop-ALL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_PRD_vw_upsert_Workshop-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_aug_lnd_ra_adviser_hs_User_legal.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_aug_lnd_ra_adviser_hs_User_legal.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_aug_lnd_ra_adviser_hs_User_orgn_ah.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_aug_lnd_ra_adviser_hs_User_orgn_ah.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_aug_lnd_ra_adviser_hs_User_private.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_aug_lnd_ra_adviser_hs_User_private.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_aug_lnd_ra_asfcsa_controldate_hs_Control_Date.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_aug_lnd_ra_asfcsa_controldate_hs_Control_Date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_aug_lnd_ra_csa_controldate_hs_Control_Date.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_aug_lnd_ra_csa_controldate_hs_Control_Date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_exp_xport_asf_csa_case_delete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_exp_xport_asf_csa_case_delete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_exp_xport_asf_csa_case_upsert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_exp_xport_asf_csa_case_upsert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_ra_adviser.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_ra_adviser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_ra_asfcsa_controldate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_ra_asfcsa_controldate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="015_ETL_STG_vw_ra_csa_controldate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>015_ETL_STG_vw_ra_csa_controldate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="anal_objectsWithMetazoa.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>anal_objectsWithMetazoa.sql</FullPath>
+        </FileNode>
+        <FileNode Name="count_attachmentsByObject.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>count_attachmentsByObject.sql</FullPath>
+        </FileNode>
+        <FileNode Name="createColumnarStoreIndices.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>createColumnarStoreIndices.sql</FullPath>
+        </FileNode>
+        <FileNode Name="del_sf_object_meta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>del_sf_object_meta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dropTable-sf.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dropTable-sf.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dropTable-sfrhd.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dropTable-sfrhd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="gen_countRows.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>gen_countRows.sql</FullPath>
+        </FileNode>
+        <FileNode Name="gen_g1-countByLicensee.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>gen_g1-countByLicensee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="gen_g2-countByContactLicensee.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>gen_g2-countByContactLicensee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="gen_g3-countByAccountLicensee.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>gen_g3-countByAccountLicensee.sql</FullPath>
+        </FileNode>
+        <FileNode Name="recon_Account.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>recon_Account.sql</FullPath>
+        </FileNode>
+        <FileNode Name="recon_ASF.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>recon_ASF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="recon_Contact.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>recon_Contact.sql</FullPath>
+        </FileNode>
+        <FileNode Name="recon_historyAll.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>recon_historyAll.sql</FullPath>
+        </FileNode>
+        <FileNode Name="recon_history-unique-ASF.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>recon_history-unique-ASF.sql</FullPath>
+        </FileNode>
+        <FileNode Name="recon_history-unique-CSA.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>recon_history-unique-CSA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="recon_historyVsASF_CSA.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>recon_historyVsASF_CSA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REDUNDANT - 015_ETL_PRD_vw_upsert_GroupMember-Shadforth.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>REDUNDANT - 015_ETL_PRD_vw_upsert_GroupMember-Shadforth.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REDUNDANT - 015_ETL_PRD_vw_upsert_TaskRelation-Shadforth.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>REDUNDANT - 015_ETL_PRD_vw_upsert_TaskRelation-Shadforth.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REDUNDANT-015_ETL_PRD_vw_upsert_AccountContactRelation-Shadforth.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>REDUNDANT-015_ETL_PRD_vw_upsert_AccountContactRelation-Shadforth.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REDUNDANT-015_ETL_PRD_vw_upsert_ContentVersion-ALL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>REDUNDANT-015_ETL_PRD_vw_upsert_ContentVersion-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="REDUNDANT-015_ETL_PRD_vw_upsert_Wealth_Central-ALL.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>REDUNDANT-015_ETL_PRD_vw_upsert_Wealth_Central-ALL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SalesforceMigration-objectScript.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SalesforceMigration-objectScript.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sel_missingPicklist.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sel_missingPicklist.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sel_objectGroup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sel_objectGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sel_referencesInMeta.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>sel_referencesInMeta.sql</FullPath>
+        </FileNode>
+        <FileNode Name="truncateTable-sfrhd.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:Rhombus-SQL-Ser:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>Rhombus-SQL-Ser</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>truncateTable-sfrhd.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
